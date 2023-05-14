@@ -1,0 +1,88 @@
+.content{
+    max-width: 422px;
+    padding: 0;
+}
+.bg-fundo{
+    background-color: rgb(233, 202, 206, 0.1);
+}
+.header{
+    height: 35vh;
+    border-bottom: 1px solid rgb(128,128,128, 0.3);
+}
+
+.input{
+    font-size: 2.5rem;
+    color: rgb(114, 0, 0);
+}
+
+.resultado{
+    font-size: 1.3rem;
+    color: rgb(233, 202, 206);
+}
+
+.teclado{
+    height: 65vh;
+
+}
+
+.linha{
+    height: 13vh;
+}
+
+.botao{
+    height: 100%;
+    width: 75%;
+    background-color: rgb(233, 202, 206, 0.4);
+    border: none;
+    border-radius: 50%;
+    color: rgb(114, 0, 0);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.botao:active{
+    background-color: rgb(154, 154, 154, 0.5);
+    font-size: 1.3rem;
+}
+
+#botao-igual{
+    background-color: rgb(145, 92, 131, 0.6); 
+    color: white;
+}
+
+#botao-igual:active{
+    background-color: rgb(145, 92, 131, 1); 
+}
+
+.copy{
+    display: none;
+    height: 70px;
+}
+
+.font-copy{
+    font-size: 12px;
+}
+
+@media only screen and (min-width: 768px){
+    body{
+        display: flex;
+        align-items: center;
+    }
+    .content{
+        height: 785px;
+    }
+    .header{
+        height: 274px;
+    }
+    .teclado{
+        height: 510px;
+    }
+    .linha{
+        height: 102px;
+    }
+    .copy{
+        display: block;
+    }
+}
